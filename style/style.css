@@ -45,8 +45,8 @@ h1{
 }
 /*barra de tareas*/
 
-.navbar {
-    grid-area: navbar;
+.navbar{
+    grid-area: navbar1;
     
     
 }
@@ -139,7 +139,7 @@ footer{
     gap: 10px;
     grid-template-areas:
     "header"
-    "navbar"
+    "navbar1"
     "main"
     "footer";
 }
@@ -148,7 +148,7 @@ footer{
 .gridContainer {
     grid-template-areas:
     "header header"
-    "navbar navbar"
+    "navbar1 navbar1"
     "main main"
     "footer footer";
 
@@ -159,7 +159,7 @@ footer{
         .gridContainer {
             grid-template-areas:
             "header header header"
-            "navbar navbar navbar"
+            "navbar1 navbar1 navbar1"
             "main main main"
             "footer footer footer";
         
