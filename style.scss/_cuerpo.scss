@@ -1,0 +1,89 @@
+
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    min-height :100%;
+}
+/*header*/
+header{
+    grid-area: header;
+    background-image:url(../imagenes/header.jpg) ;
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    border-radius: 25px;
+    border: 5px solid black;
+    text-align: center;
+    h1{
+        color: black;
+        text-align: center;
+    }
+}
+.logo{
+    display: flex;
+    justify-content: start;
+     width: 10vw;
+     height: 10vw;
+     border: 2px solid black;
+    border-radius: 4VW;
+    }
+
+
+/*barra de tareas*/
+
+.navbar{
+    grid-area: navbar1;
+    
+    
+}
+ol{font-weight: bold;
+
+font-size: 20px;
+}
+.barra{
+    background: rgb(157, 158, 214);
+    padding: 1vw;
+}
+.barra a {
+    text-decoration: none;
+    background: black;
+    border-radius: 1vw;
+    padding: 5px;
+    margin: 2vw;
+    color: white;
+}
+/*main */
+
+.main {
+    grid-area: main;
+    background-color: white;
+    .simu{
+        display: flex;
+        justify-content: center;
+        border: 2px solid violet;
+        border-radius: 3vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        height: 35vw;
+        width: 45vw;
+        .video{
+            height: 100%;
+            width: 100%;
+            border-radius: 3vw;
+        }
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(11, 12, 11);
+        }
+        .fotoAero{
+    
+            height: 18vw;
+            width: 20vw;
+            border: 2px solid violet;
+            border-radius: 3vw;
+            
+            margin: 10px;
+        }
+}

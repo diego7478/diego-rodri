@@ -1,0 +1,42 @@
+
+/*grid y media query*/
+
+.gridContainer {
+    box-shadow : -1px 1px 7px 0px black (0, 0 0, 0,75);
+    border-radius: 4px;
+    padding : 10px;
+    text-align : center;
+}
+
+
+.gridContainer {
+    display: grid;
+    gap: 10px;
+    grid-template:
+    "header"
+    "navbar1"
+    "main"
+    "footer";
+}
+ 
+@media (min-width : 600px) {
+.gridContainer {
+    grid-template:
+    "header header"
+    "navbar1 navbar1"
+    "main main"
+    "footer footer";
+
+}
+    }
+
+    @media (min-width : 900px) {
+        .gridContainer {
+            grid-template:
+            "header header header"
+            "navbar1 navbar1 navbar1"
+            "main main main"
+            "footer footer footer";
+        
+        }
+            }
