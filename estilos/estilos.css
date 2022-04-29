@@ -38,6 +38,14 @@ html {
   height: 100%;
 }
 
+h2 {
+  color: brown;
+}
+
+h4 {
+  color: #095151;
+}
+
 /*animaciones*/
 .heartbeat {
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
@@ -268,7 +276,7 @@ ol {
 .main .fotoAero {
   height: 18vw;
   width: 20vw;
-  border: 2px solid violet;
+  border: 2px solid #0a090a;
   border-radius: 3vw;
   margin: 10px;
 }
